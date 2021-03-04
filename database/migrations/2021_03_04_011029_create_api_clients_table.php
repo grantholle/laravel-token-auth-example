@@ -16,7 +16,6 @@ class CreateApiClientsTable extends Migration
         Schema::create('api_clients', function (Blueprint $table) {
             $table->id();
             $table->string('api_token')->unique();
-            $table->boolean('account_enabled')->default(true);
         });
     }
 
