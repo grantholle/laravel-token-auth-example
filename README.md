@@ -1,3 +1,7 @@
+# Token driver authentication example
+
+This sample application is an example on how to implement a token-based api guard for a machine-to-machine api request. You can read the full tutorial on [dev.to](https://dev.to/grantholle/implementing-laravel-s-built-in-token-authentication-48cf).
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
