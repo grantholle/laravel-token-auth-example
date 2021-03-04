@@ -43,8 +43,8 @@ return [
 
         'api' => [
             'driver' => 'token',
-            'provider' => 'users',
-            'hash' => false,
+            'provider' => 'api_clients',
+            'hash' => true,
         ],
     ],
 
@@ -71,10 +71,10 @@ return [
             'model' => App\Models\User::class,
         ],
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+         'api_clients' => [
+             'driver' => 'database',
+             'table' => 'api_clients',
+         ],
     ],
 
     /*
